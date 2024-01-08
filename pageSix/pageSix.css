@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+#icon {
+  margin-right: 10px;
+}
+
+#form-container {
+  direction: rtl;
+  width: 70%;
+}
+
+#form-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-group {
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+#image {
+  width: 50%;
+}
+
+#image img {
+  width: 100%;
+  max-width: 100%;
+}

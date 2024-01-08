@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navBar nav {
+    width: 100vw;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+
+}
+
+.navBar nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navBar nav ul li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navBar nav ul li a {
+    display: inline-block;
+    padding: 1rem;
+    color: #2C2C2C;
+    font-size: 16px;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo img {
+    max-width: 31px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.topPage {
+    width: 100vw;
+    height: 40vh;
+    margin-top: 0;
+    background-color: #13E8F163;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topPage h1 {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    margin: 0 auto;
+    justify-items: center;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.containerI {
+    margin: 0 0;
+}
+
+/*.containerInfo {}*/
+
+.photoBlock {
+    height: 20vh;
+    background-color: white;
+    width: 100%;
+    padding: 5vh 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    padding: 1.5rem;
+    width: 10vw;
+    height: auto;
+    text-decoration: none;
+}
+
+
+
+.photoSection {
+    background-color: lightblue;
+    padding: 5vh 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.photoSection img {
+    width: 5rem;
+}
+
+.photoSection h3 {
+    font-size: 1.5rem;
+}
+
+.photoSection p {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.gridSection {
+    background-color: #EBFEFF;
+    padding: 6vh 15vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+
+.card {
+    width: 25vw;
+    background-color: white;
+    padding: 0vh 0vw 4vh 0vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.frame {
+    max-width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: block;
+
+}
+
+.frame img {
+    display: block;
+    width: 100%;
+    height: 35vh;
+}
+
+
+.whitebk {
+    padding: 2vh 2vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.whitebk h2 {
+    margin: 0;
+}
+
+.whitebk p {
+    margin: 0;
+    font-size: 0.5rem;
+}
+
+.contentContainer {
+    margin-top: 10px;
+}
+
+.cardPhoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.horizontalPhotos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.horizontalPhotos img {
+    flex: 0 0 calc(33.33% - 5px);
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.button {
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    right: 0.7rem;
+    bottom: -1rem;
+    margin: 10px;
+    background-color: #1AE0EC;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.buttonA {
+    width: 4rem;
+    bottom: 10px;
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    background-color: #1AE0EC;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+.form {
+    direction: ltr;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(39, 35, 44, 0.918);
+    border-bottom: 1px solid rgb(20, 22, 26);
+    display: flex;
+}
+
+
+#h2Form {
+    direction: rtl;
+    text-align: right;
+    margin-right: 5vw;
+    color: white;
+    padding-top: 7vh;
+}
+
+#pForm {
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 5vh;
+    color: white;
+    margin-right: 5vw;
+    padding-top: 6px;
+}
+
+form {
+    margin-right: 5vw;
+    direction: rtl;
+    font-family: ;
+    color: white;
+}
+
+
+
+#messageImg {
+    width: 40vw;
+}
+
+
+#submitButtom {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 130px;
+    border-style: solid;
+    border-color: rgb(157, 206, 252);
+    background-color: rgb(157, 206, 252);
+    padding: 8px;
+    border-radius: 20px;
+    color: black;
+
+    &:hover {
+        color: white;
+        transition: all 0.2s;
+        cursor: pointer;
+    }
+}
+
+
+input,
+textarea {
+    width: 50vw;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+label {
+    margin-top: 15px;
+}
+
+/* .contactSection {
+    display: flex; 
+    align-items: center; 
+    padding: 6vh 15vw 0 0;
+    background-color: #333;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      direction: rtl; 
+    color: white;
+    justify-content: space-around;
+    position: relative; 
+}
+
+.contactPhoto {
+    flex: 1; 
+    padding: 6vh 0 0 15vw;
+     position: relative; 
+}
+
+.contactPhoto img {
+    width: 30%;
+    opacity: 0.3;
+}
+
+.contactForm {
+     flex: 1; 
+    padding: 20px;
+    position: absolute;
+}
+
+.contactForm h2 {
+    text-align: right;
+}
+
+.contactForm label {
+    font-size: 0.8rem;
+    display: block;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+    .photoBlock {
+        padding: 3vh 0;
+        /* Adjust padding for mobile */
+        overflow-x: auto;
+        /* Enable horizontal scrolling for mobile */
+    }
+
+    .gridSection {
+        padding: 6vh 5vw;
+        /* Adjust padding for mobile */
+        grid-template-columns: repeat(1, 1fr);
+        /* Single column layout for mobile */
+    }
+
+    .contactSection {
+        padding: 6vh 5vw 0 0;
+        /* Adjust padding for mobile */
+        flex-direction: column;
+        /* Reset flex direction for mobile */
+    }
+}
+
+.cardIcons {
+    width: 1rem;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B7BCBF;
+    /*CHANGE LATER*/
+    font-family: 'Ubuntu', sans-serif;
+    color: #707375;
+
+
+}
+
+.timerSection {
+    min-width: 500px;
+    width: 70%;
+    height: 300px;
+    border-radius: 2rem;
+    margin: 0 auto;
+    background-color: #CDD5C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.timer {
+    float: left;
+    font-size: 5em;
+}
+
+.text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.buttonsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.startButton,
+.resetButton {
+    background-color: #E8D4C6;
+    width: 7rem;
+    padding: 1rem;
+    margin-right: 20px;
+    border-radius: 1.5rem;
+}

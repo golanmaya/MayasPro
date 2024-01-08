@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Timer</title>
+</head>
+
+<body>
+    <div class="timerSection">
+        <div class="timer">
+            <div class="number" id="hours">00 :</div>
+            <div class="text"> Hours</div>
+        </div>
+
+        <div class="timer">
+            <div class="number" id="minutes">00 :</div>
+            <div class="text">Minutes</div>
+        </div>
+
+        <div class="timer">
+            <div class="number" id="seconds">00 :</div>
+            <div class="text">Seconds</div>
+        </div>
+
+        <div class="timer">
+            <div class="number" id="millisec">00</div>
+            <div class="text">Seconds</div>
+        </div>
+
+    </div>
+    <!--    <div>
+        <input type="number" id="hoursInput" placeholder="Set countdown value">
+        <input type="number" id="minutesInput" placeholder="Set countdown value">
+        <input type="number" id="secondsInput" placeholder="Set countdown value">
+        <button onclick="setCountdown()">start countdown</button>
+    </div> -->
+    <div class="buttonsSection">
+        <button class="startButton" onclick="startTimer()">Start</button>
+        <button class="resetButton" onclick="resetTimer()">Reset</button>
+        <button class="startButton" onclick="pauseTimer()">Pause</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

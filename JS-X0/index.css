@@ -1,0 +1,75 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #8FBDDF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.game-container {
+    background-color: #FAE360;
+    width: 70vw;
+    max-width: 90vw;
+    height: 60vh;
+    max-height: 55vh;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+#ticTacToe {
+    color: #8FBDDF;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#board {
+    position: relative;
+    background-color: #8FBDDF;
+    border-radius: 20px;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #a9cbe5ed;
+}
+
+td.X {
+    color: #1E90FF;
+}
+
+td.O {
+    color: #FF6347;
+}
+
+#playAgain {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #F48E35;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#playAgain:hover {
+    background-color: #45a049;
+}

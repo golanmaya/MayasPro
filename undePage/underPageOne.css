@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navBar {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navBar nav {
+    width: 100vw;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+
+}
+
+.navBar nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navBar nav ul li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navBar nav ul li a {
+    display: inline-block;
+    padding: 1rem;
+    color: #2C2C2C;
+    font-size: 16px;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo img {
+    max-width: 31px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.topPage {
+    width: 100vw;
+    height: 35vh;
+    margin-top: 0;
+    background-color: #13E8F163;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topPage h1 {
+    color: black;
+    margin: 0 auto;
+    justify-items: center;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.topPage button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.containerI {
+    margin: 0 0;
+}
+
+.photoBlock {
+    height: 5vh;
+    background-color: white;
+    width: 100%;
+    padding: 5vh 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.icon {
+    padding: 1rem;
+    max-width: 8%;
+    height: auto;
+    text-decoration: none;
+}
+
+
+
+.projectSection {
+    background-color: #EBFEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 45rem;
+    padding: 80px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+}

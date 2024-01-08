@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div id="game-conteiner">
+
+        <div id="score-conteiner">
+            <div class="computer-score">computer:</div> <span id="computer-score">0</span>
+            <div class="user-score">you:</div> <span id="user-score">0</span>
+        </div>
+
+        <div id="icon-conteiner">
+            <div class="choice" id="rock" onclick="rock()">
+                <i class="fas fa-hand-rock" style="color: #FAE360;"></i>
+            </div>
+            <div class="choice" id="paper" onclick="paper()">
+                <i class="fas fa-hand-paper" style="color: #FAE360;"></i>
+            </div>
+            <div class="choice" id="scissors" onclick="scissors()">
+                <i class="fas fa-hand-scissors" style="color: #FAE360;"></i>
+            </div>
+        </div>
+
+        <div id="action">Choos Your Weapon</div>
+        <div id="results-conteiner">
+            <div class="user-choise">You chose: <span id="user-choise">?</span></div>
+            <div class="computer-choise">Computer chose: <span id="computer-choise">?</span></div>
+        </div>
+
+        <button class="play-again" id="play-again" onclick="playAgain()" disabled>Play Again</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

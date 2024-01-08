@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: transparent linear-gradient(180deg, #281EFF, #2DFF8C);
+}
+
+.textContainer {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer h1 {
+  font-family: "Satisfy", cursive;
+  margin-top: 25%;
+  font-size: 6rem;
+}
+
+.textContainer h4 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.textContainer p {
+  font-family: "Varela Round", sans-serif;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.formContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  direction: rtl;
+  align-items: center;
+}
+
+.formContainer form label {
+  font-family: "Varela Round", sans-serif;
+  font-size: 0.6rem;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.formContainer form input {
+  border: 1px solid #fff;
+  background: none;
+  margin-right: 10px;
+  flex: 1;
+  width: 20rem;
+  height: 1.5rem;
+}
+
+.inputGroup {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 1.5rem;
+  background-color: #fff;
+  border: none;
+  width: 5rem;
+  margin-top: 0.5rem;
+  height: 1.2rem;
+  font-size: 0.6rem;
+}
+
+.bottomButton {
+  background-color: #fff;
+  color: #000;
+  width: 7rem;
+  height: 2rem;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  margin-bottom: 5vh;
+}
+
+/* Your existing CSS code */
+/* Add a media query for screens with a maximum width of 600px (adjust as needed) */
+@media (max-width: 700px) {
+  .formContainer form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .formContainer form label {
+    margin-bottom: 5px;
+  }
+  .formContainer form input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  button {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  .textContainer h1 {
+    line-height: 1;
+  }
+}/*# sourceMappingURL=pageThree.css.map */
